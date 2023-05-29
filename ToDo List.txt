@@ -1,0 +1,30 @@
+Formulario Usuario
+	Inicio de sesion 									D
+	Registro			  									D
+---------------------------------------------
+Landing Page											D
+	Barra de busqueda									D
+	Medios de contacto								D
+---------------------------------------------
+Carrito de compras
+	Metodo de pago real
+---------------------------------------------
+Perfil de usuarios									D
+	Menu del usuarios									D
+		lista de deseos								D
+		Ordenes de compras							D
+---------------------------------------------
+Catalogo
+   Barra de busqueda									D
+   Ordenamiento de productos						D
+   Filtros de los productos						D
+---------------------------------------------
+Producto en individual								D
+	Detalles del productos							D
+	Reseñas de usuarios por productos			D
+---------------------------------------------
+Panel de administracion								D
+	Formulario de inicio de sesion admin      D
+	CRUD productos										D
+	CRUD categorias									D
+---------------------------------------------

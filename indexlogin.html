@@ -62,15 +62,26 @@
           <a class="nav-link active" aria-current="page" href="#" title="Inicio">Inicio</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="catalogo.html" title="todos los productos">Todos los productos</a>
+          <a class="nav-link active" aria-current="page" href="catalogologed.html" title="todos los productos">Todos los productos</a>
         </li>
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Fany Coufain
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
+            <li><a class="dropdown-item" href="listadeseos">Lista de deseos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.html">Cerrar sesión </a></li>
+          </ul>
+        </li>   
       </ul>
-    </div>
-  </div>
-    <a class="navbar-brand" href="avisoregistro.html" title="carrito de compras">
+        </div>
+         <a class="navbar-brand" href="carrito.html" title="carrito de compras">
       <img src="images/carrito.png" width="30" height="24" alt="carrito" title="carrito">
     </a>
-    <a class="btn btn-outline-primary" href="form.html">Iniciar sesión </a>
+    </div>
+
 </nav>
 
 <div class="container">
@@ -105,7 +116,17 @@
 </div>
 		<h1 class="text-center">Productos destacados</h1>
 <div class="container" id="prod_des">
-  <div class="row">
+  <div class="row" >
+    <div class="col">
+      <div class="card">
+  <img src="images/metallica.jpg" class="card-img-top" alt="Metallica" title="Metallica">
+  <div class="card-body">
+    <h5 class="card-title">Metallica</h5>
+    <p class="card-text">766,00$</p>
+    <a href="prod.html" class="btn btn-primary" title="Metallica">Ver detalles</a>
+  </div>
+</div>
+    </div>
     <div class="col">
       <div class="card">
   <img src="images/nevermind.jpg" class="card-img-top" alt="Nevermind" title="Nevermind">
@@ -239,7 +260,7 @@
   }
   function irprod(nombre){
     console.log(nombre);
-    window.location.href=`catalogo.html?id=${nombre}`;
+    window.location.href=`catalogologed.html?id=${nombre}`;
   }
 </script>
 </html>
